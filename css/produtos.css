@@ -1,0 +1,141 @@
+.nov2 {
+    -webkit-box-shadow: 5px 13px 87px -3px rgb(160, 161, 163);
+    -moz-box-shadow: 5px 13px 5px -3px rgb(88, 87, 87);
+    box-shadow: 5px 13px 87px -3px rgb(80, 80, 80);
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+  }
+  
+  .nov-text h3 {
+    padding: 8px;
+    color: hsl(0, 0%, 19%);
+    font-size: 50px;
+  }
+  
+  .nov-text p {
+    padding: 10px;
+    color: hsl(0, 0%, 19%);
+    font-size: 30px;
+  }
+  
+  .btn {
+    padding: 5px 0px 0px 5px;
+    margin-top: 15px;
+  }
+  
+  .button {
+    background-color: rgb(65, 143, 117);
+    color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    margin: 0.5rem;
+    padding: 0.6rem 1rem;
+  }
+  
+  .button:hover {
+    background-color: rgb(47, 47, 53);
+    color: whitesmoke;
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 1450px) {
+    .nov2 {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+    }
+  
+    .nov2 img {
+      width: 100%;
+    }
+  
+    .nov-text h3 {
+      padding: 8px;
+      color: hsl(0, 0%, 19%);
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    .nov-text p {
+      padding: 10px;
+      color: hsl(0, 0%, 19%);
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .btn {
+      padding: 5px 0px 0px 5px;
+      margin-top: 15px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 1094px) {
+  
+    .container-text {
+      padding-top: 20%;
+      text-align: center;
+      display: flex;
+    }
+    .container-text span {
+      color: #44a3a3;
+    }
+    
+    .container-text h3 {
+      color: hsl(0, 0%, 19%);
+      font-size: 30px;
+      text-wrap: nowrap;
+      text-align: center;
+    }
+    
+    .container-text h1 {
+      color: hsl(0, 0%, 19%);
+      font-size: 100px;
+      text-wrap: nowrap;
+      text-align: center;
+    }
+    
+  }
+  
+  @media (max-width: 953px) {
+    .container-text {
+      padding: 200px;
+    }
+  
+    .container-text h3{
+      font-size: 30px;
+    }
+    
+  }
+  
+  @media (max-width: 755px) {
+    .container-text h3{
+      font-size: 30px;
+    }
+  
+    .container-text h1{
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 685px) {
+    .container-text h3{
+      font-size: 30px;
+    }
+  
+    .container-text h1{
+      font-size: 50px;
+    }
+}
